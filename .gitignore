@@ -1,0 +1,9 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+*.tif
+*.xml
+*.png
+*.jpg
+*.jpeg
+*.lock

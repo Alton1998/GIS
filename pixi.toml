@@ -1,0 +1,21 @@
+[workspace]
+authors = ["Alton1998 <altondsouza02@gmail.com>"]
+channels = ["conda-forge"]
+name = "GIS"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[system-requirements]
+cuda = "13.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+pytorch-gpu = ">=2.10.0,<3"
+qgis = ">=3.44.7,<4"
+pyqt = ">=5.15.11,<6"
+geoai = ">=0.31.1,<0.32"
+segment-geospatial = ">=0.15.2,<0.16"
+sam3 = ">=0.1.0.20251211,<0.2"
+libopenblas = ">=0.3.31,<0.4"
